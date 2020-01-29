@@ -3,7 +3,7 @@
 @endsection
 @section('body')
 
-<div class="container altura ">
+<div class="container altura m-0">
   <div class="column justify-items-center">
     <form method="POST" action="/proyectos/{{$dato->id}}">
      <input type="hidden" name="_method" value="PATCH">
