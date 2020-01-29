@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('prueba');
 });
+
+
+
+//controlador de recursos para los proyectos
+Route::resource('proyectos','proyectos_controller');
