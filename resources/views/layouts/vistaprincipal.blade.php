@@ -25,14 +25,15 @@
 				<div>
 					<a href="/" class="btn btn-secondary">Inicio</a>
 					<a href="/proyectos" class="btn btn-secondary">Proyectos</a>
+					<a href="empleados" class="btn btn-secondary">Empleados</a>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="container bg-light">
+	<div class="container bg-secondary">
 	@yield('body')
 	</div>
-	<div class="container-fluid bg-dark p-4 m-0">
+	<div class="container-fluid bg-dark m-0 p-4">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="text-light h4">Andres R.</div>

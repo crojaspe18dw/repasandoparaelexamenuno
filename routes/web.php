@@ -19,3 +19,7 @@ Route::get('/', function () {
 
 //controlador de recursos para los proyectos
 Route::resource('proyectos','proyectos_controller');
+
+
+//controlador de recursos para los empleados
+Route::resource('empleados','controlador_empleados');
