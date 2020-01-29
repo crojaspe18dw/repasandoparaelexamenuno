@@ -6,6 +6,11 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style type="text/css">
+	  .altura{
+	    height: 670px;
+	  }
+	</style>
 	<title></title>
 	@yield('head')
 </head>
@@ -18,13 +23,16 @@
 			<div class="row justify-content-between m-2">
 				<div class="col-3 text-light h4 ">Logo</div>
 				<div>
-					<button class="link text-light btn-secondary mx-2">Inicio</button>
+					<a href="/" class="btn btn-secondary">Inicio</a>
+					<a href="/proyectos" class="btn btn-secondary">Proyectos</a>
 				</div>
 			</div>
 		</div>
 	</div>
+	<div class="container bg-light">
 	@yield('body')
-		<div class="container-fluid bg-dark p-4">
+	</div>
+	<div class="container-fluid bg-dark p-4 m-0">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="text-light h4">Andres R.</div>
